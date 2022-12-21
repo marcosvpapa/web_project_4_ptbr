@@ -7,7 +7,7 @@
 Projeto em desenvolvimento para a disciplina - JavaScript Básico e Trabalhando com o Navegador no curso da Practicum.
 Seguimos o layout que nos foi fornecido no figma.
 A página web foi feita para poder abrir em todo tipo de tela.
-Nesse projeto 4, começamos a deselviover a programação JavaScript.
+Nesse projeto 4, começamos a desenvolver a programação JavaScript.
 
 ### Projeto 3
 
