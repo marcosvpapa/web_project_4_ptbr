@@ -1,0 +1,9 @@
+.header__image {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 544px) {
+  .header__image {
+    width: 126px;
+  }
+}

@@ -1,16 +1,20 @@
 # Projeto 4:  EUA Afora
 
-### Visão geral
+:warning: Projeto em construção :warning:
 
-* Figma
-* Imagens
+### Descrição do projeto
 
-**Figma**
+Projeto em desenvolvimento para a disciplina - JavaScript Básico e Trabalhando com o Navegador no curso da Practicum.
+Seguimos o layout que nos foi fornecido no figma.
+A página web foi feita para poder abrir em todo tipo de tela.
+Nesse projeto 4, começamos a deselviover a programação JavaScript.
 
-* [Link para o projeto no Figma](https://www.figma.com/file/XfB6BSINvliub43JgKza1e/WEB.-Sprint-4.-Around-The-U.S.-desktop-%2B-mobile-pt)
+### Projeto 3
 
-**Imagens**
+### Link do projeto no Figma
 
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido.
+https://www.figma.com/file/XfB6BSINvliub43JgKza1e/WEB.-Sprint-4.-Around-The-U.S.-desktop-%2B-mobile-pt?node-id=0%3A1
 
-Divirta-se com JavaScript!
+#### Tecnologias :microscope:
+
+### HTML CSS JS

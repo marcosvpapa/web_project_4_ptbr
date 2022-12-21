@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EUA Afora</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          src="./images/around.jpg"
+          alt="Around the US"
+          class="header__image"
+        />
+      </header>
+      <main>
+        <div>
+          <section class="profile">
+            <img
+              src="./images/cousteau.jpg"
+              alt="photo by Jacques Cousteau"
+              class="profile__image"
+            />
+            <div class="profile__header">
+              <div>
+                <div class="profile__name">
+                  <h1 class="profile__title">Jacques Cousteau</h1>
+                  <img
+                    src="./images/Edit_Button.jpg"
+                    alt="edit button"
+                    class="profile__edit"
+                  />
+                </div>
+                <h3 class="profile__text">Explorar</h3>
+              </div>
+              <button id="buttonEvent" class="profile__button-add">
+                <img
+                  class="profile__button"
+                  src="./images/Add_Button.jpg"
+                  alt="add button"
+                />
+              </button>
+            </div>
+          </section>
+        </div>
+        <article class="cards">
+          <div class="cards__container">
+            <img
+              src="./images/vale_de_yosemite.jpg"
+              alt="image of a river with pine trees and mountains in the background"
+              class="cards__image"
+            />
+            <div class="cards__content">
+              <h2 class="cards__text">Vale de Yosemite</h2>
+              <img
+                src="./images/heart.jpg"
+                alt="heart icon"
+                class="cards__heart"
+              />
+            </div>
+          </div>
+          <div class="cards__container">
+            <img
+              src="./images/lago_louise.jpg"
+              alt="image of a lake with mountains"
+              class="cards__image"
+            />
+            <div class="cards__content">
+              <h2 class="cards__text">Lago Louise</h2>
+              <img
+                src="./images/heart.jpg"
+                alt="heart icon"
+                class="cards__heart"
+              />
+            </div>
+          </div>
+          <div class="cards__container">
+            <img
+              src="./images/montanhas_care.jpg"
+              alt="image of mountains with sunset"
+              class="cards__image"
+            />
+            <div class="cards__content">
+              <h2 class="cards__text">Montanhas Care</h2>
+              <img
+                src="./images/heart.jpg"
+                alt="heart icon"
+                class="cards__heart"
+              />
+            </div>
+          </div>
+          <div class="cards__container">
+            <img
+              src="./images/latemar.jpg"
+              alt="mountains with snow and starry sky"
+              class="cards__image"
+            />
+            <div class="cards__content">
+              <h2 class="cards__text">Latemar</h2>
+              <img
+                src="./images/heart.jpg"
+                alt="heart icon"
+                class="cards__heart"
+              />
+            </div>
+          </div>
+          <div class="cards__container">
+            <img
+              src="./images/vanoise_nationa.jpg"
+              alt="lake with mountains in the background in france"
+              class="cards__image"
+            />
+            <div class="cards__content">
+              <h2 class="cards__text">Vanoise National Park</h2>
+              <img
+                src="./images/heart.jpg"
+                alt="heart icon"
+                class="cards__heart"
+              />
+            </div>
+          </div>
+          <div class="cards__container">
+            <img
+              src="./images/lago_di_braies.jpg"
+              alt="boats on a lake with mountains in Italy"
+              class="cards__image"
+            />
+            <div class="cards__content">
+              <h2 class="cards__text">Lago di Braies</h2>
+              <img
+                src="./images/heart.jpg"
+                alt="heart icon"
+                class="cards__heart"
+              />
+            </div>
+          </div>
+        </article>
+      </main>
+      <footer class="footer">&copy; 2022 Around The U.S.</footer>
+    </div>
+    <div class="overlay" id="modalStart">
+      <div class="modal">
+        <img
+          src="./images/Close_Icon.png"
+          alt="close icon"
+          class="modal__close"
+        />
+        <h2 class="modal__title">Editar perfil</h2>
+        <form class="modal__formula">
+          <fieldset class="modal__box">
+            <input
+              type="text"
+              id="name"
+              class="modal__name"
+              placeholder="Nome"
+              required
+            />
+            <input
+              type="text"
+              id="job"
+              class="modal__job"
+              placeholder="Sobre mim"
+              required
+            />
+          </fieldset>
+          <input type="submit" class="modal__button" value="Salvar" />
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

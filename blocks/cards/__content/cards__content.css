@@ -1,0 +1,14 @@
+.cards__content {
+  max-width: 880px;
+  height: 79px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+}
+@media screen and (max-width: 544px) {
+  .cards__content {
+    max-width: 100%;
+  }
+}

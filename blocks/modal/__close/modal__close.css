@@ -1,0 +1,19 @@
+.modal__close {
+  cursor: pointer;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  padding: 0;
+}
+
+@media screen and (max-width: 544px) {
+  .modal__close {
+    width: 26px;
+    top: -50px;
+    right: 0;
+  }
+}
+
+.modal__close:hover {
+  opacity: 0.6;
+}

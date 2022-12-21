@@ -1,0 +1,13 @@
+.profile__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 544px) {
+  .profile__paragraph {
+    align-items: center;
+  }
+}

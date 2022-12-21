@@ -1,0 +1,8 @@
+.profile__edit {
+  padding: 0;
+  cursor: pointer;
+}
+
+.profile__edit:hover {
+  opacity: 0.6;
+}
