@@ -1,5 +1,5 @@
 function startModal(classModal) {
-  const modal = document.getElementById(classModal);
+  const modal = document.querySelector("#modalStart");
   modal.classList.add("display");
   modal.addEventListener("click", function (e) {
     if (
@@ -17,18 +17,18 @@ button.addEventListener("click", function () {
   startModal("modalStart");
 });
 
-let formElement = document.querySelector(".modal__formula");
+const formElement = document.querySelector(".modal__formula");
 
 function handleProfileFormSubmit(evt) {
   evt.preventDefault();
 
-  let nameInput = document.querySelector("#name");
-  let jobInput = document.querySelector("#job");
-  let title = document.querySelector(".profile__title");
-  let text = document.querySelector(".profile__text");
+  const nameInput = document.querySelector("#name");
+  const jobInput = document.querySelector("#job");
+  const title = document.querySelector(".profile__title");
+  const text = document.querySelector(".profile__text");
 
-  let nameValue = nameInput.value;
-  let jobValue = jobInput.value;
+  const nameValue = nameInput.value;
+  const jobValue = jobInput.value;
 
   title.textContent = nameValue;
   text.textContent = jobValue;
